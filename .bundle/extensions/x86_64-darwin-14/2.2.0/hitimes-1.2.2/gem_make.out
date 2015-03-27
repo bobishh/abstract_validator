@@ -1,0 +1,16 @@
+/Users/bogdan/.rvm/rubies/ruby-2.2.1/bin/ruby -r ./siteconf20150326-10700-1p8w0ke.rb extconf.rb 
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+compiling hitimes.c
+compiling hitimes_instant_clock_gettime.c
+compiling hitimes_instant_osx.c
+compiling hitimes_instant_windows.c
+compiling hitimes_interval.c
+compiling hitimes_stats.c
+linking shared-object hitimes/2.2/hitimes.bundle
+
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 hitimes.bundle ./.gem.20150326-10700-522wmi/hitimes/2.2
